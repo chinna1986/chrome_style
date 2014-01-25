@@ -1,4 +1,4 @@
-LC-chrome-extension
+chrome_style
 
 ---
 
