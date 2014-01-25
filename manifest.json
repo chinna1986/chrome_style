@@ -1,5 +1,5 @@
 {
-	"name": "Chrome style",
+	"name": "chrome style",
 	"version": "2.0",
 	"description": "change display style of some pages.",
 	"background": {
@@ -12,7 +12,7 @@
 	"https://*/"
 		],
 	"browser_action": {
-		"default_title": "Chrome style"
+		"default_title": "chrome style"
 	},
 	"commands": {
 		"changeFont": {
