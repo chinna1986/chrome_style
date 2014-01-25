@@ -1,0 +1,44 @@
+{
+	"name": "Chrome style",
+	"version": "2.0",
+	"description": "change display style of some pages.",
+	"background": {
+		"scripts": ["eventPage.js"],
+		"persistent": false
+	},
+	"permissions": [
+		"tabs",
+	"http://*/",
+	"https://*/"
+		],
+	"browser_action": {
+		"default_title": "Chrome style"
+	},
+	"commands": {
+		"changeFont": {
+			"suggested_key": {
+				"default": "Alt + W"
+			},
+			"description": "change display font"
+		},
+		"changeColor": {
+			"suggested_key": {
+				"default": "Alt + Q"
+			},
+			"description": "change background color"
+		},
+		"splitWindow":{
+			"suggested_key": {
+				"default": "Alt + S"
+			},
+			"description": "split tabs into new window"
+		},
+		"combineWindow":{
+			"suggested_key": {
+				"default": "Alt + C"
+			},
+			"description": "combine windows"
+		}
+	},
+	"manifest_version": 2
+}

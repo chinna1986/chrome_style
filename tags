@@ -1,0 +1,15 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+changeColor	eventPage.js	/^function changeColor() {$/;"	f
+changeFont	eventPage.js	/^function changeFont() {$/;"	f
+combineWindow	eventPage.js	/^function combineWindow() {$/;"	f
+registerTabListener	eventPage.js	/^function registerTabListener() {$/;"	f
+splitWindow	eventPage.js	/^function splitWindow() {$/;"	f
+urlSC.url	eventPage.js	/^		urlSC = { url: url.replace("\\\/wiki\\\/", "\\\/zh-cn\\\/") };$/;"	p
+wikiActivate	eventPage.js	/^function wikiActivate(activeInfo) {$/;"	f
+wikiStyle	eventPage.js	/^function wikiStyle(tab) {$/;"	f
+wikiUpdate	eventPage.js	/^function wikiUpdate(tabId, changeInfo, tab) {$/;"	f
