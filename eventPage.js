@@ -9,16 +9,26 @@ function changeColor() {
 	chrome.tabs.query({active:true}, function(tabs){
 		for (var i in tabs) {
 			tab = tabs[i];
-			chrome.tabs.insertCSS(tab.id, {code:"html,body,div {background-color: #C7EDCC!important;}", allFrames:true});
+			chrome.tabs.insertCSS(tab.id, {code:"html,body,div,p {background-color: #C7EDCC!important;}", allFrames:true});
 		}
 	});
 }
 
-function changeFont() {
+function changeFontSansSerif() {
 	chrome.tabs.query({active:true}, function(tabs){
 		for (var i in tabs) {
 			tab = tabs[i];
-			chrome.tabs.insertCSS(tab.id, {code:"html,body,div {font-family:Palatino Linotype!important;}}", allFrames:true});
+			chrome.tabs.insertCSS(tab.id, {code:"html,body,div,p {font-family:Optima!important;}}", allFrames:true});
+		}
+	});
+}
+
+
+function changeFontSerif() {
+	chrome.tabs.query({active:true}, function(tabs){
+		for (var i in tabs) {
+			tab = tabs[i];
+			chrome.tabs.insertCSS(tab.id, {code:"html,body,div,p {font-family:Palatino Linotype!important;}}", allFrames:true});
 		}
 	});
 }
@@ -64,8 +74,11 @@ function combineWindow() {
 
 chrome.commands.onCommand.addListener(function(command) {
 	switch (command) {
-		case "changeFont":
-		changeFont();
+		case "changeFontSansSerif":
+		changeFontSansSerif();
+		break;
+		case "changeFontSerif":
+		changeFontSerif();
 		break;
 		case "changeColor":
 		changeColor();

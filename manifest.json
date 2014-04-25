@@ -15,17 +15,17 @@
 		"default_title": "chrome style"
 	},
 	"commands": {
-		"changeFont": {
+		"changeFontSansSerif": {
 			"suggested_key": {
 				"default": "Alt + W"
 			},
-			"description": "change display font"
+			"description": "change display font to Sans-Serif"
 		},
-		"changeColor": {
+		"changeFontSerif": {
 			"suggested_key": {
 				"default": "Alt + Q"
 			},
-			"description": "change background color"
+			"description": "change display font to Serif"
 		},
 		"splitWindow":{
 			"suggested_key": {
